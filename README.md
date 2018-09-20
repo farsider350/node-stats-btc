@@ -9,7 +9,7 @@ p2pool-node-status
 To run this UI in parallel to your current p2pool web interface, do in your web-static directory:
 
 ``` Bash
-git clone https://github.com/farsider350/node-stats.git
+git clone https://github.com/farsider350/node-stats-btc.git
 ```
 
 You can then access the UI per `http://<url-to-your-p2pool>:<port>/static/node-stats/`
@@ -20,7 +20,7 @@ To replace your current web-static, do in the top directory of your p2pool insta
 
 ``` Bash
 mv web-static _web-static-pre
-git clone https://github.com/farsider350/node-stats.git web-static
+git clone https://github.com/farsider350/node-stats-btc.git web-static
 ```
 
 and access as usually per `http://<url-to-your-p2pool>:<port>/static`
